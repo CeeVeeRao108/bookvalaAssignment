@@ -46,8 +46,8 @@ export default class Example extends Component {
         <ReactSelect
           options={colourOptions}
           isMulti
-          closeMenuOnSelect={true}
-          hideSelectedOptions={false}
+          closeMenuOnSelect={false}
+          hideSelectedOptions={true}
           components={{
             Option,
           }}
